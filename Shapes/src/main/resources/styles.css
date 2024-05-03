@@ -1,0 +1,29 @@
+.button {
+    -fx-font-size: 14px;
+    -fx-background-color: #738276;
+    -fx-border: none;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 12px;
+    -fx-cursor: hand;
+    -fx-effect: drop shadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);  /* Shadow effect */
+}
+
+.button:hover {
+    -fx-background-color: grey;
+    -fx-text-fill: yellow;
+    -fx-effect: drop shadow(three-pass-box, rgba(255,255,0,0.8), 10, 0, 0, 0); /* Yellow shadow on hover */
+}
+
+.label {
+    -fx-font-size: 19px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #738276;
+    -fx-effect: drop shadow(three-pass-box, rgba(0,0,0,0.5), 5, 0, 0, 0);
+    -fx-translate-y: -90;
+}
+
+.label:hover {
+    -fx-text-fill: yellow;
+     -fx-effect: drop shadow(three-pass-box, rgba(255,255,0,0.5), 10, 0, 0, 0); /* Brighter and larger shadow on hover */
+}
